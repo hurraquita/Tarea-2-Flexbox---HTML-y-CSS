@@ -1,0 +1,42 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        padding-right: 150px;
+        color: greenyellow;
+    }
+    h2{
+        text-align: end;
+        color: aliceblue;
+        
+
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+display: flex;
+justify-content: center;
+}
+.Izquierda{
+    background-color: black;
+
+}
+Section > div{
+
+    border: 1px solid;
+    gap: 10px;
+    border-radius: 0;
+    padding: 25px;
+    h2{
+       color: gray;
+           border-bottom: 1px solid gray; 
+    }
+    #primero{
+        color: greenyellow;
+    }
+}
